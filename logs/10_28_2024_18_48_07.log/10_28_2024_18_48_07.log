@@ -1,0 +1,12 @@
+[ 2024-10-28 18:48:22,752 ] 168 root - INFO - Index(['Delivery_person_Age', 'Delivery_person_Ratings', 'Restaurant_latitude',
+       'Restaurant_longitude', 'Delivery_location_latitude',
+       'Delivery_location_longitude', 'Order_Date', 'Time_Orderd',
+       'Time_Order_picked', 'Weather_conditions', 'Road_traffic_density',
+       'Vehicle_condition', 'Type_of_order', 'Type_of_vehicle',
+       'multiple_deliveries', 'Festival', 'City', 'Order_Year', 'Order_Month',
+       'Order_Day'],
+      dtype='object')
+[ 2024-10-28 18:48:22,752 ] 169 root - INFO -    Delivery_person_Age  Delivery_person_Ratings  Restaurant_latitude  ...  Order_Year  Order_Month  Order_Day
+0                   30                      4.5             20.27241  ...        2024           10         28
+
+[1 rows x 20 columns]

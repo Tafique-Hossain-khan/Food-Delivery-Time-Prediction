@@ -1,0 +1,39 @@
+[ 2024-10-28 09:08:43,974 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-10-28 09:08:43,986 ] 107 dagshub - INFO - Accessing as Tafique-Hossain-khan
+[ 2024-10-28 09:08:44,484 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Tafique-Hossain-khan/Food-Delivery-Time-Prediction "HTTP/1.1 200 OK"
+[ 2024-10-28 09:08:44,492 ] 107 dagshub - INFO - Initialized MLflow to track repo "Tafique-Hossain-khan/Food-Delivery-Time-Prediction"
+[ 2024-10-28 09:08:44,493 ] 107 dagshub - INFO - Repository Tafique-Hossain-khan/Food-Delivery-Time-Prediction initialized!
+[ 2024-10-28 09:08:45,395 ] 44 root - INFO - spliting the data into train and test
+[ 2024-10-28 09:08:45,429 ] 48 root - INFO - (36474, 20)
+[ 2024-10-28 09:08:45,429 ] 49 root - INFO - (9119, 20)
+[ 2024-10-28 09:08:46,072 ] 57 root - INFO - Data spliting complited and saved to the respective location
+[ 2024-10-28 09:08:46,845 ] 67 root - INFO - Imputed missing values in column 'ID' using method: mode
+[ 2024-10-28 09:08:46,855 ] 67 root - INFO - Imputed missing values in column 'Delivery_person_ID' using method: mode
+[ 2024-10-28 09:08:46,865 ] 67 root - INFO - Imputed missing values in column 'Delivery_person_Age' using method: mode
+[ 2024-10-28 09:08:46,874 ] 67 root - INFO - Imputed missing values in column 'Delivery_person_Ratings' using method: mode
+[ 2024-10-28 09:08:46,882 ] 67 root - INFO - Imputed missing values in column 'Restaurant_latitude' using method: mode
+[ 2024-10-28 09:08:46,885 ] 67 root - INFO - Imputed missing values in column 'Restaurant_longitude' using method: mode
+[ 2024-10-28 09:08:46,889 ] 67 root - INFO - Imputed missing values in column 'Delivery_location_latitude' using method: mean
+[ 2024-10-28 09:08:46,901 ] 67 root - INFO - Imputed missing values in column 'Delivery_location_longitude' using method: median
+[ 2024-10-28 09:08:46,912 ] 67 root - INFO - Imputed missing values in column 'Order_Date' using method: mode
+[ 2024-10-28 09:08:46,922 ] 67 root - INFO - Imputed missing values in column 'Time_Orderd' using method: mode
+[ 2024-10-28 09:08:46,932 ] 67 root - INFO - Imputed missing values in column 'Time_Order_picked' using method: mode
+[ 2024-10-28 09:08:46,942 ] 67 root - INFO - Imputed missing values in column 'Weatherconditions' using method: mode
+[ 2024-10-28 09:08:46,951 ] 67 root - INFO - Imputed missing values in column 'Road_traffic_density' using method: mode
+[ 2024-10-28 09:08:46,957 ] 67 root - INFO - Imputed missing values in column 'Vehicle_condition' using method: mode
+[ 2024-10-28 09:08:46,967 ] 67 root - INFO - Imputed missing values in column 'Type_of_order' using method: mode
+[ 2024-10-28 09:08:46,977 ] 67 root - INFO - Imputed missing values in column 'Type_of_vehicle' using method: mode
+[ 2024-10-28 09:08:46,986 ] 67 root - INFO - Imputed missing values in column 'multiple_deliveries' using method: mode
+[ 2024-10-28 09:08:46,996 ] 67 root - INFO - Imputed missing values in column 'Festival' using method: mode
+[ 2024-10-28 09:08:47,006 ] 67 root - INFO - Imputed missing values in column 'City' using method: mode
+[ 2024-10-28 09:08:47,015 ] 67 root - INFO - Imputed missing values in column 'Time_taken(min)' using method: mode
+[ 2024-10-28 09:08:47,663 ] 98 root - INFO - Cleaned data saved to Artifacts\10_28_2024_09_08_38\cleaned_data\cleaned_data.csv
+[ 2024-10-28 09:08:47,672 ] 98 root - INFO - Entered initiate_feature_extraction method of FeatureEngineering class
+[ 2024-10-28 09:08:47,672 ] 101 root - INFO - Starting Feature Extraction
+[ 2024-10-28 09:08:47,945 ] 38 root - INFO - Feature Extraction started
+[ 2024-10-28 09:08:47,945 ] 39 root - INFO - <class 'pandas.core.frame.DataFrame'>
+[ 2024-10-28 09:08:47,945 ] 42 root - INFO - Handeling missing values
+[ 2024-10-28 09:08:48,140 ] 56 root - INFO - Values extracted sucessfully
+[ 2024-10-28 09:08:48,141 ] 57 root - INFO - Data Tyepe coversition started
+[ 2024-10-28 09:09:09,481 ] 60 root - INFO - Preprocessing object created successfully
+[ 2024-10-28 09:09:09,930 ] 54 root - INFO - Entered the save_object method of MainUtils class

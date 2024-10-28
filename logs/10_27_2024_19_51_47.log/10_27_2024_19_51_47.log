@@ -1,0 +1,4 @@
+[ 2024-10-27 19:51:48,980 ] 44 root - INFO - spliting the data into train and test
+[ 2024-10-27 19:51:48,990 ] 48 root - INFO - (36474, 20)
+[ 2024-10-27 19:51:48,990 ] 49 root - INFO - (9119, 20)
+[ 2024-10-27 19:51:49,278 ] 57 root - INFO - Data spliting complited and saved to the respective location

@@ -1,0 +1,25 @@
+[ 2024-10-27 19:53:05,718 ] 44 root - INFO - spliting the data into train and test
+[ 2024-10-27 19:53:05,727 ] 48 root - INFO - (36474, 20)
+[ 2024-10-27 19:53:05,728 ] 49 root - INFO - (9119, 20)
+[ 2024-10-27 19:53:06,013 ] 57 root - INFO - Data spliting complited and saved to the respective location
+[ 2024-10-27 19:53:06,148 ] 66 root - INFO - Imputed missing values in column 'Unnamed: 0' using method: mean
+[ 2024-10-27 19:53:06,188 ] 66 root - INFO - Imputed missing values in column 'ID' using method: mode
+[ 2024-10-27 19:53:06,192 ] 66 root - INFO - Imputed missing values in column 'Delivery_person_ID' using method: mode
+[ 2024-10-27 19:53:06,195 ] 66 root - INFO - Imputed missing values in column 'Delivery_person_Age' using method: mode
+[ 2024-10-27 19:53:06,202 ] 66 root - INFO - Imputed missing values in column 'Delivery_person_Ratings' using method: mode
+[ 2024-10-27 19:53:06,204 ] 66 root - INFO - Imputed missing values in column 'Restaurant_latitude' using method: mode
+[ 2024-10-27 19:53:06,205 ] 66 root - INFO - Imputed missing values in column 'Restaurant_longitude' using method: mode
+[ 2024-10-27 19:53:06,207 ] 66 root - INFO - Imputed missing values in column 'Delivery_location_latitude' using method: mean
+[ 2024-10-27 19:53:06,212 ] 66 root - INFO - Imputed missing values in column 'Delivery_location_longitude' using method: median
+[ 2024-10-27 19:53:06,218 ] 66 root - INFO - Imputed missing values in column 'Order_Date' using method: mode
+[ 2024-10-27 19:53:06,223 ] 66 root - INFO - Imputed missing values in column 'Time_Orderd' using method: mode
+[ 2024-10-27 19:53:06,227 ] 66 root - INFO - Imputed missing values in column 'Time_Order_picked' using method: mode
+[ 2024-10-27 19:53:06,231 ] 66 root - INFO - Imputed missing values in column 'Weatherconditions' using method: mode
+[ 2024-10-27 19:53:06,235 ] 66 root - INFO - Imputed missing values in column 'Road_traffic_density' using method: mode
+[ 2024-10-27 19:53:06,236 ] 66 root - INFO - Imputed missing values in column 'Vehicle_condition' using method: mode
+[ 2024-10-27 19:53:06,240 ] 66 root - INFO - Imputed missing values in column 'Type_of_order' using method: mode
+[ 2024-10-27 19:53:06,244 ] 66 root - INFO - Imputed missing values in column 'Type_of_vehicle' using method: mode
+[ 2024-10-27 19:53:06,248 ] 66 root - INFO - Imputed missing values in column 'multiple_deliveries' using method: mode
+[ 2024-10-27 19:53:06,252 ] 66 root - INFO - Imputed missing values in column 'Festival' using method: mode
+[ 2024-10-27 19:53:06,256 ] 66 root - INFO - Imputed missing values in column 'City' using method: mode
+[ 2024-10-27 19:53:06,260 ] 66 root - INFO - Imputed missing values in column 'Time_taken(min)' using method: mode

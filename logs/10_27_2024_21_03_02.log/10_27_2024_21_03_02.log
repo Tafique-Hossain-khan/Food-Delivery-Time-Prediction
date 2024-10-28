@@ -1,0 +1,34 @@
+[ 2024-10-27 21:03:05,235 ] 44 root - INFO - spliting the data into train and test
+[ 2024-10-27 21:03:05,258 ] 48 root - INFO - (36474, 20)
+[ 2024-10-27 21:03:05,258 ] 49 root - INFO - (9119, 20)
+[ 2024-10-27 21:03:06,102 ] 57 root - INFO - Data spliting complited and saved to the respective location
+[ 2024-10-27 21:03:07,030 ] 67 root - INFO - Imputed missing values in column 'ID' using method: mode
+[ 2024-10-27 21:03:07,043 ] 67 root - INFO - Imputed missing values in column 'Delivery_person_ID' using method: mode
+[ 2024-10-27 21:03:07,054 ] 67 root - INFO - Imputed missing values in column 'Delivery_person_Age' using method: mode
+[ 2024-10-27 21:03:07,066 ] 67 root - INFO - Imputed missing values in column 'Delivery_person_Ratings' using method: mode
+[ 2024-10-27 21:03:07,074 ] 67 root - INFO - Imputed missing values in column 'Restaurant_latitude' using method: mode
+[ 2024-10-27 21:03:07,078 ] 67 root - INFO - Imputed missing values in column 'Restaurant_longitude' using method: mode
+[ 2024-10-27 21:03:07,083 ] 67 root - INFO - Imputed missing values in column 'Delivery_location_latitude' using method: mean
+[ 2024-10-27 21:03:07,088 ] 67 root - INFO - Imputed missing values in column 'Delivery_location_longitude' using method: median
+[ 2024-10-27 21:03:07,098 ] 67 root - INFO - Imputed missing values in column 'Order_Date' using method: mode
+[ 2024-10-27 21:03:07,108 ] 67 root - INFO - Imputed missing values in column 'Time_Orderd' using method: mode
+[ 2024-10-27 21:03:07,119 ] 67 root - INFO - Imputed missing values in column 'Time_Order_picked' using method: mode
+[ 2024-10-27 21:03:07,130 ] 67 root - INFO - Imputed missing values in column 'Weatherconditions' using method: mode
+[ 2024-10-27 21:03:07,142 ] 67 root - INFO - Imputed missing values in column 'Road_traffic_density' using method: mode
+[ 2024-10-27 21:03:07,146 ] 67 root - INFO - Imputed missing values in column 'Vehicle_condition' using method: mode
+[ 2024-10-27 21:03:07,156 ] 67 root - INFO - Imputed missing values in column 'Type_of_order' using method: mode
+[ 2024-10-27 21:03:07,165 ] 67 root - INFO - Imputed missing values in column 'Type_of_vehicle' using method: mode
+[ 2024-10-27 21:03:07,177 ] 67 root - INFO - Imputed missing values in column 'multiple_deliveries' using method: mode
+[ 2024-10-27 21:03:07,188 ] 67 root - INFO - Imputed missing values in column 'Festival' using method: mode
+[ 2024-10-27 21:03:07,200 ] 67 root - INFO - Imputed missing values in column 'City' using method: mode
+[ 2024-10-27 21:03:07,211 ] 67 root - INFO - Imputed missing values in column 'Time_taken(min)' using method: mode
+[ 2024-10-27 21:03:08,051 ] 98 root - INFO - Cleaned data saved to Artifacts\10_27_2024_21_03_04\cleaned_data\cleaned_data.csv
+[ 2024-10-27 21:03:08,060 ] 98 root - INFO - Entered initiate_feature_extraction method of FeatureEngineering class
+[ 2024-10-27 21:03:08,060 ] 101 root - INFO - Starting Feature Extraction
+[ 2024-10-27 21:03:08,346 ] 38 root - INFO - Feature Extraction started
+[ 2024-10-27 21:03:08,346 ] 39 root - INFO - <class 'pandas.core.frame.DataFrame'>
+[ 2024-10-27 21:03:08,346 ] 42 root - INFO - Handeling missing values
+[ 2024-10-27 21:03:08,532 ] 56 root - INFO - Values extracted sucessfully
+[ 2024-10-27 21:03:08,532 ] 57 root - INFO - Data Tyepe coversition started
+[ 2024-10-27 21:03:29,867 ] 60 root - INFO - Preprocessing object created successfully
+[ 2024-10-27 21:03:30,396 ] 52 root - INFO - Entered the save_object method of MainUtils class

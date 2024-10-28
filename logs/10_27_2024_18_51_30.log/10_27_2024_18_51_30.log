@@ -1,0 +1,10 @@
+[ 2024-10-27 18:51:34,338 ] 44 root - INFO - spliting the data into train and test
+[ 2024-10-27 18:51:34,364 ] 48 root - INFO - (36474, 20)
+[ 2024-10-27 18:51:34,365 ] 49 root - INFO - (9119, 20)
+[ 2024-10-27 18:51:35,238 ] 57 root - INFO - Data spliting complited and saved to the respective location
+[ 2024-10-27 18:51:35,245 ] 93 root - INFO - Entered initiate_feature_extraction method of FeatureEngineering class
+[ 2024-10-27 18:51:35,245 ] 96 root - INFO - Starting Feature Extraction
+[ 2024-10-27 18:51:35,540 ] 36 root - INFO - Feature Extraction started
+[ 2024-10-27 18:51:35,540 ] 37 root - INFO - <class 'pandas.core.frame.DataFrame'>
+[ 2024-10-27 18:51:35,728 ] 51 root - INFO - Values extracted sucessfully
+[ 2024-10-27 18:51:35,731 ] 52 root - INFO - Data Tyepe coversition started

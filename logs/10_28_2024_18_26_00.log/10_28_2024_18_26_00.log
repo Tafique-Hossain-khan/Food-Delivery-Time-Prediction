@@ -1,0 +1,51 @@
+[ 2024-10-28 18:26:03,081 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2024-10-28 18:26:03,087 ] 107 dagshub - INFO - Accessing as Tafique-Hossain-khan
+[ 2024-10-28 18:26:03,532 ] 1038 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Tafique-Hossain-khan/Food-Delivery-Time-Prediction "HTTP/1.1 200 OK"
+[ 2024-10-28 18:26:03,534 ] 107 dagshub - INFO - Initialized MLflow to track repo "Tafique-Hossain-khan/Food-Delivery-Time-Prediction"
+[ 2024-10-28 18:26:03,536 ] 107 dagshub - INFO - Repository Tafique-Hossain-khan/Food-Delivery-Time-Prediction initialized!
+[ 2024-10-28 18:26:03,633 ] 46 root - INFO - Start data Ingestion
+[ 2024-10-28 18:26:04,595 ] 44 root - INFO - spliting the data into train and test
+[ 2024-10-28 18:26:04,620 ] 48 root - INFO - (36474, 20)
+[ 2024-10-28 18:26:04,620 ] 49 root - INFO - (9119, 20)
+[ 2024-10-28 18:26:05,428 ] 57 root - INFO - Data spliting complited and saved to the respective location
+[ 2024-10-28 18:26:05,435 ] 49 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(raw_file_path='Data/ingested_data\\raw_data.csv', trained_file_path='Data/ingested_data\\train_data.csv', test_file_path='Data/ingested_data\\test_data.csv')
+[ 2024-10-28 18:26:06,326 ] 67 root - INFO - Imputed missing values in column 'ID' using method: mode
+[ 2024-10-28 18:26:06,337 ] 67 root - INFO - Imputed missing values in column 'Delivery_person_ID' using method: mode
+[ 2024-10-28 18:26:06,345 ] 67 root - INFO - Imputed missing values in column 'Delivery_person_Age' using method: mode
+[ 2024-10-28 18:26:06,355 ] 67 root - INFO - Imputed missing values in column 'Delivery_person_Ratings' using method: mode
+[ 2024-10-28 18:26:06,359 ] 67 root - INFO - Imputed missing values in column 'Restaurant_latitude' using method: mode
+[ 2024-10-28 18:26:06,363 ] 67 root - INFO - Imputed missing values in column 'Restaurant_longitude' using method: mode
+[ 2024-10-28 18:26:06,368 ] 67 root - INFO - Imputed missing values in column 'Delivery_location_latitude' using method: mean
+[ 2024-10-28 18:26:06,374 ] 67 root - INFO - Imputed missing values in column 'Delivery_location_longitude' using method: median
+[ 2024-10-28 18:26:06,385 ] 67 root - INFO - Imputed missing values in column 'Order_Date' using method: mode
+[ 2024-10-28 18:26:06,396 ] 67 root - INFO - Imputed missing values in column 'Time_Orderd' using method: mode
+[ 2024-10-28 18:26:06,407 ] 67 root - INFO - Imputed missing values in column 'Time_Order_picked' using method: mode
+[ 2024-10-28 18:26:06,419 ] 67 root - INFO - Imputed missing values in column 'Weatherconditions' using method: mode
+[ 2024-10-28 18:26:06,429 ] 67 root - INFO - Imputed missing values in column 'Road_traffic_density' using method: mode
+[ 2024-10-28 18:26:06,432 ] 67 root - INFO - Imputed missing values in column 'Vehicle_condition' using method: mode
+[ 2024-10-28 18:26:06,443 ] 67 root - INFO - Imputed missing values in column 'Type_of_order' using method: mode
+[ 2024-10-28 18:26:06,453 ] 67 root - INFO - Imputed missing values in column 'Type_of_vehicle' using method: mode
+[ 2024-10-28 18:26:06,462 ] 67 root - INFO - Imputed missing values in column 'multiple_deliveries' using method: mode
+[ 2024-10-28 18:26:06,473 ] 67 root - INFO - Imputed missing values in column 'Festival' using method: mode
+[ 2024-10-28 18:26:06,482 ] 67 root - INFO - Imputed missing values in column 'City' using method: mode
+[ 2024-10-28 18:26:06,492 ] 67 root - INFO - Imputed missing values in column 'Time_taken(min)' using method: mode
+[ 2024-10-28 18:26:07,148 ] 98 root - INFO - Cleaned data saved to Artifacts\10_28_2024_18_26_01\cleaned_data\cleaned_data.csv
+[ 2024-10-28 18:26:07,157 ] 98 root - INFO - Entered initiate_feature_extraction method of FeatureEngineering class
+[ 2024-10-28 18:26:07,157 ] 101 root - INFO - Starting Feature Extraction
+[ 2024-10-28 18:26:07,418 ] 38 root - INFO - Feature Extraction started
+[ 2024-10-28 18:26:07,418 ] 39 root - INFO - <class 'pandas.core.frame.DataFrame'>
+[ 2024-10-28 18:26:07,418 ] 42 root - INFO - Handeling missing values
+[ 2024-10-28 18:26:07,577 ] 56 root - INFO - Values extracted sucessfully
+[ 2024-10-28 18:26:07,577 ] 57 root - INFO - Data Tyepe coversition started
+[ 2024-10-28 18:26:26,954 ] 60 root - INFO - Preprocessing object created successfully
+[ 2024-10-28 18:26:27,391 ] 54 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-10-28 18:26:27,393 ] 58 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-10-28 18:26:27,393 ] 54 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-10-28 18:26:27,394 ] 58 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-10-28 21:13:35,619 ] 870 urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /Tafique-Hossain-khan/Food-Delivery-Time-Prediction.mlflow/api/2.0/mlflow-artifacts/artifacts/b534e7b8fe5a4ba297e82dfa4d1c3163/76252341358e44a898e0788b4d395d74/artifacts/model/model.pkl
+[ 2024-10-28 21:24:01,116 ] 870 urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2396)')': /Tafique-Hossain-khan/Food-Delivery-Time-Prediction.mlflow/api/2.0/mlflow-artifacts/artifacts/b534e7b8fe5a4ba297e82dfa4d1c3163/eefaef1db61446669778bf2a7812ac19/artifacts/model/model.pkl
+[ 2024-10-28 21:31:11,571 ] 54 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-10-28 21:31:13,166 ] 58 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-10-28 21:31:13,167 ] 54 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-10-28 21:31:16,915 ] 58 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-10-28 21:31:16,917 ] 102 root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\10_28_2024_18_26_01\\model_trainer\\trained_model\\model.pkl')
